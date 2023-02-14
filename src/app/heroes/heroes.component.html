@@ -1,1 +1,7 @@
-<h2>{{hero}}</h2>
+<h2>{{hero.name | uppercase}} Details</h2>
+
+<div><span>id: </span>{{hero.id}}</div>
+<div>
+  <label for="name">Hero name: </label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name"> <!--Two way binding:Data can flow from the hero.name property to the text box and from the text box back to the hero.name-->
+</div>
