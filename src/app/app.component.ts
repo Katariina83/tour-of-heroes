@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heroes'; //Tämä tulee näkyviin selaimessa
+  title = 'Tour of Heroes';
 }
